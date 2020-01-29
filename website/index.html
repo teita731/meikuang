@@ -13,12 +13,12 @@
 <link rel="canonical" href=""/>
 <link rel="stylesheet" type="text/css" href="assets/css/base.css">
 <link rel="stylesheet" type="text/css" href="assets/css/common.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/focus.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/index.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/date.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/index_flexslider.css">
-<script src="/assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/banner.css">
+<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/banner.js"></script>
+<script type="text/javascript" src="assets/js/marquee.js"></script>
+<script type="text/javascript" src="assets/js/slide.js"></script>
 <!--加载meta IE兼容文件-->
 <!--[if lt IE 9]>  
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>  
@@ -68,25 +68,168 @@ DD_belatedPNG.fix('.D1fBt a,.play,background,.slidesjs-next,background,.slidesjs
             </div>
         </div>
         <!--公共头结束-->
-        <div class="content">
-            <!--第一部分头条开始-->
-            <div class="column1">
+        <!--banner开始-->
+        <div class="banners box">
+            <div class="number">
+                <div class="numbers"></div>
+                <div style="clear: both;"></div>
+            </div>
+ 
+            <div class="banner_img">
+                <img class="banner_img1" src="uploads/banner/1.jpg" onclick="link('#',false)">
+                <img class="banner_img2" src="uploads/banner/1.jpg" onclick="link('#',false)">
+                <img class="banner_img3" src="uploads/banner/1.jpg" onclick="link('#',true)">
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--banner结束-->
+        <div class="content box">
+            
+            <!--最新消息开始-->
+            <div class="news">
+                <div class="marquee-sibling">
+                   最新消息
+                </div>
+                <div class="marquee">
+                    <marquee behavior="scroll" direction="left" scrollamount="2" width="350">
+                        <a href="#">111</a>
+                        <a href="#">222</a>
+                        <a href="#">333</a>
+                    </marquee>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!--最新消息结束-->
+            <!--头条开始-->
+            <div class="topic">
+                <div class="fl">
+                    <div class="slide">
+                        <ul id="pub_slideplay">
+                            <li><a target="_blank" href="#"><img src="uploads/news/1.jpg" /><p>111</p></a></li>
+                            <li><a target="_blank" href="#"><img  src="uploads/news/1.jpg" /><p>222</p></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fr">
+                    <div class="tag-category">
+                        <ul>
+                            <li class="active">高层声音</li>
+                            <li>政务要闻</li>
+                            <li>工作动态</li>
+                            <li>通知公告</li>
+                            <li>人事信息</li>
+                        </ul>
+                    </div>
+                    <div class="tag-content">
+                        <div class="cont active">
+                            <div class="column1">
+                                <h2>习近平寄语希望工程</h2>
+                                <div class="description">
+                                    <p>中国移动国际有限公司(CMI)宣布，位于英国的数据中心已于12月初正式启用，这也是中国移动在欧洲的第一自有数据中心，集国际网络交换枢纽、互联网数据中心于一身。 该数据中心位于英国斯劳贸易园区(Slough Trading Estate)，拥有1600多台机架，依据Tier III设计文件(TCDD)建造，可用性高达99.99％。</p>
+                                </div>
+                            </div>
+                            <div class="column2">
+                                <ul>
+                                    <li><a href="#">111</a><span>2019-12-15</span></li>
+                                    <li><a href="#">111</a><span>2019-12-15</span></li>
+                                    <li><a href="#">111</a><span>2019-12-15</span></li>
+                                    <li><a href="#">111</a><span>2019-12-15</span></li>
+                                    <li><a href="#">111</a><span>2019-12-15</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cont">222</div>
+                        <div class="cont">333</div>
+                        <div class="cont">444</div>
+                        <div class="cont">555</div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--头条结束-->
+            <div class="hr"></div>
+            <div class="column3">
+                <div class="fl">
+                    <div class="files">
+                        <!--公开文件开始-->
+                        <div class="title">公开文件<a href="#">更多</a></div>
+                        <div class="content">
+                            <div class="tag-category">
+                                <ul>
+                                    <li class="active">国务院安委会</li>
+                                    <li>国家煤矿安监局</li>
+                                    <li>应急管理部</li>
+                                    <li>国家应急指挥中心</li>
+                                    <li>事故查处与警示</li>
+                                </ul>
+                            </div>
+                            <div class="tag-content">
+                                <div class="cont active">
+                                    <ul>
+                                        <li><a href="#">111</a><span>2019-12-15</span></li>
+                                        <li><a href="#">111</a><span>2019-12-15</span></li>
+                                        <li><a href="#">111</a><span>2019-12-15</span></li>
+                                        <li><a href="#">111</a><span>2019-12-15</span></li>
+                                        <li><a href="#">111</a><span>2019-12-15</span></li>
+                                    </ul>
+                                </div>
+                                <div class="cont">222</div>
+                                <div class="cont">333</div>
+                                <div class="cont">444</div>
+                                <div class="cont">555</div>
+                            </div>
+                        </div>
+                        <!--公开文件结束-->
+                        <!--w770广告开始-->
+                        <div class="ad ad770">
+
+                        </div>
+                        <!--w770广告结束-->
+                    </div>
+                </div>
+                <div class="fr">
+
+                </div>
             </div>
         </div>
         <div class="footer">
             <div class="auto">
-                <div class="fl">
-                    <a href="#"><img src="assets/images/footer-ico1.png" /></a>
-                    <a href="#"><img src="assets/images/footer-ico2.png" /></a>
-                </div>
-                <div class="fl">
-                    <p>举报电话：0771-2212596 网站识别码：bm34000005</p>
-                    <p>网警备案号：45010302000746 桂ICP备09011138号</p>
-                    <p>主办单位：广西煤矿安全监察局</p>
+                <div class="footer-con">
+                    <div class="fl">
+                        <a href="#"><img src="assets/images/footer-ico1.png" /></a>
+                        <a href="#"><img src="assets/images/footer-ico2.png" /></a>
+                    </div>
+                    <div class="fl">
+                        <p>举报电话：0771-2212596 网站识别码：bm34000005</p>
+                        <p>网警备案号：45010302000746 桂ICP备09011138号</p>
+                        <p>主办单位：广西煤矿安全监察局</p>
+                    </div>
+                    <div class="clear"></div>
                 </div>
             </div>
         </div>
         <!--公共页脚结束-->
     </div>
+
+    <script type="text/javascript">
+        //banner
+        loads();
+        
+        $(function (){
+            //跑马灯
+            // basic version is: $('div.demo marquee').marquee()
+
+            //图文
+            new dk_slideplayer("#pub_slideplay",{width:"560px",height:"375px",fontsize:"12px",time:"1000"});
+
+            //选项卡
+            $('.tag-category ul li').click(function() {
+                var i = $(this).index();
+                $(this).addClass('active').siblings().removeClass('active');
+                $('.tag-content .cont').eq(i).addClass('active').siblings().removeClass('active');
+            })
+        });
+
+    </script>
 </body>
 </html>
