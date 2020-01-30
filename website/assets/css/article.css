@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* 机构职能 */
+.function h1 { font-size:1.2em;text-align:center;font-weight:500;color:#000;margin-bottom:30px; }
+.function .info { display:block;color:#82868f;margin:0 auto;text-align:center;padding-bottom:10px;border-bottom:dashed 1px #bfbfbf; }
+.function .info span { margin-right:50px;display:inline-block;text-align:left; }
+.function .article_content { padding:35px 0; }
+.function .article_content p { text-indent:2em;line-height:2em; }
+
+/* 领导讲话 */
+.lead .info { margin:0 auto;text-align:center;margin-bottom:10px; }
+.lead .info .cover { width:180px;height:220px;margin:0 auto; }
+.lead .info .cover img { width:180px;height:220px; }
+.lead .info h1 { font-size:2em;line-height:2em; }
+.lead .info p { font-size:1.2em; }
+.lead .article_content h2 { font-size:1.5em;margin:50px 0 20px 0; }
+.lead .article_content p { text-indent:2em;line-height:2em; }

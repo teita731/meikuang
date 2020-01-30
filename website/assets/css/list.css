@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* 领导讲话 */
+.lead li { border-bottom:dashed 1px #dcdcdc;margin-bottom:28px; }
+.lead li:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.lead li .cover { float:left;width:180px;height:220px; }
+.lead li .cover img { width:180px;height:220px; }
+.lead li .description { float:right;width:685px; }
+.lead li .description p { font-size:1.2em;line-height:1.5em;margin-bottom:18px; }
+.lead li .description .button { margin-top:10px; }
+.lead li .description .button a { display:inline-block;border-radius: 5px;background-color: #0965d4;color:#fff;margin-right:20px;padding:8px 25px;font-size:0.9em;  }

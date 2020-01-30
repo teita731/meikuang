@@ -44,7 +44,7 @@ body{background:#fff url(../images/bg.jpg) no-repeat;background-size:100%;font-s
 
 /* 左侧导航 */
 .subnav dt { background-color: #005bac;text-align: center;height:80px;line-height:80px;margin-bottom:10px; }
-.subnav dt a { color:#fff;font-size:1.8em; }
+.subnav dt a { color:#fff;font-size:1.6em;font-weight:600; }
 .subnav dd { margin-bottom:10px; }
 .subnav {float:left;padding:14px;width:230px;border:solid 1px #c9c9c9;}
 .nav_title {display:block;width:230px;height:18px;cursor:pointer;font-weight:bold;font-size:1.2em;color:#0052b5;line-height:18px;padding:16px 0;text-align: center;background-color: #d2e8ff;margin-bottom:1px;}
@@ -58,17 +58,27 @@ body{background:#fff url(../images/bg.jpg) no-repeat;background-size:100%;font-s
 .nav_cont li a {width:190px;display:block;height:40px;line-height:40px;font-size:1.1em;color:#333;padding-left:15px;background: url(../images/subnav-dotted.png) no-repeat left center;}
 .nav_cont li.active a { background: url(../images/subnav-dotted-active.png) no-repeat left center;color:#f41202; }
 
-/* 内容页 */
-.article { float:right;padding:59px 14px;width:895px;border:solid 1px #c9c9c9; }
-.article h1 { font-size:1.2em;text-align:center;font-weight:500;color:#000;margin-bottom:30px; }
-.article .info { display:block;color:#82868f;margin:0 auto;text-align:center;padding-bottom:10px;border-bottom:dashed 1px #bfbfbf; }
-.article .info span { margin-right:50px;display:inline-block;text-align:left; }
-.article .article_content { padding:35px 0; }
-.article .article_content p { text-indent:2em;line-height:2em; }
+/* 列表页 */
+.lists { float:right;padding:40px 14px 55px 14px;width:895px;border:solid 1px #c9c9c9; }
 
+
+/* 内容页 */
+.article { float:right;padding:60px 14px 360px 14px;width:895px;border:solid 1px #c9c9c9; }
+
+/* 页码 */
+.pages { margin-top:40px;text-align:center; }
+.pages .pages_cont { display:inline-block;text-align:left; }
+.pages span { color:#666666;font-size:1.2em;margin-right:10px; }
+.pages a { color:#0a64d2;margin-right:10px;font-size:1.2em; }
+.pages .page_num { display:inline-block; }
+.pages .page_num a { display:inline-block;padding:10px 15px;margin:0; }
+.pages .page_num a.active { color:#fff;background-color:#0a64d2;border-radius: 5px; }
+.pages .num { margin:0 10px; }
+.pages input.input_num { display:inline-block;border:solid 1px #cbcbcb;border-radius: 5px;width:25px;height:14px;padding:8px 15px;margin-right:5px;font-size:1.2em; }
+.pages input.input_button { display:inline-block;border:solid 1px #cbcbcb;border-radius: 5px;padding:4px 15px;font-size:1.2em;color:#666666;background-color: #fff;cursor: pointer; }
 
 /* 公共页脚 */
-.footer { background-color:#004d95;color:#fff;padding:45px 0;font-size:16px;line-height:1.8rem;margin-top:20px; }
+.footer { background-color:#004d95;color:#fff;padding:45px 0;font-size:16px;line-height:1.8rem;margin-top:60px; }
 .footer .auto { display:table; }
 .footer .auto .footer-con { display:table-cell; } 
 .footer img { vertical-align: middle;margin-right:25px; }
