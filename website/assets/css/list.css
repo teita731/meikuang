@@ -9,3 +9,59 @@
 .lead li .description p { font-size:1.2em;line-height:1.5em;margin-bottom:18px; }
 .lead li .description .button { margin-top:10px; }
 .lead li .description .button a { display:inline-block;border-radius: 5px;background-color: #0965d4;color:#fff;margin-right:20px;padding:8px 25px;font-size:0.9em;  }
+
+/* 内设机构 */
+.mechanism li { padding-bottom:15px;border-bottom:dashed 1px #dcdcdc;margin-bottom:28px; }
+.mechanism li .title { height:50px;background-color: #f4f4f4; }
+.mechanism li .title h2 { height:50px;line-height: 50px;padding-left:25px;border-left:solid 8px #1986ff;font-weight:500; }
+.mechanism li .description { margin:30px 0;padding:0 20px;color:#7d7d7d; }
+.mechanism li .description p { text-indent:2em;font-size:1.2em;line-height:1.5em; }
+.mechanism li .address { background-color: #eff8ff;height:40px;line-height: 40px;font-size:1.2em;padding:0 20px; }
+.mechanism li .address .phone { margin-left:35px; }
+.mechanism li .address a { float:right;color:#005ba9; }
+.mechanism li .address a:after { content:" >>"; }
+
+/* 文件资料 */
+.files .search_file { padding-bottom:60px; }
+.files .search_file p { font-size:1.2em;margin-bottom:10px; }
+.files .search_file p span { display:inline-block;margin-right:10px;width:5.4em; }
+.files .search_file p input { font-size:1em;border:#bfbfbf solid 1px;height:34px;line-height:34px;padding:0 20px;margin-right:20px;width:185px; }
+.files .search_file input[type='submit'] { display:inline-block;width:auto;background-color: #4194fa;color:#fff;vertical-align: middle;border:none;height: 36px;line-height: 36px; }
+.files ul li { height:1.2em;padding:20px 0 20px 20px;background: url(../images/ico-files.png) no-repeat left 23px;border-bottom:dashed 1px #dcdcdc; }
+.files ul li a { font-size:1.2em; }
+.files ul li span { float:right;color:#989baa; } 
+
+/* 政务咨询 */
+.advice .search_advice { padding-bottom:60px; }
+.advice .search_advice p { font-size:1.2em;margin-bottom:10px; }
+.advice .search_advice p span { display:inline-block;margin-right:10px;width:5.4em; }
+.advice .search_advice p input { font-size:1em;border:#bfbfbf solid 1px;height:34px;line-height:34px;padding:0 20px;margin-right:20px;width:185px; }
+.advice .search_advice p input[type='submit'] { border:none;background-color: #fff;color:#000;width:auto;cursor: pointer; }
+.advice .search_advice .send { float:right;background-color: #4194fa;color:#fff;vertical-align: middle;border:none;height: 36px;line-height: 36px;padding:0 20px; }
+.advice li { margin-bottom:25px; }
+.advice li dl { width:100%;border:solid 1px #c2dafe;background-color: #ecf3fb;padding:10px 20px; }
+.advice li dt,.advice li dd { display:inline-block; }
+.advice li dt { width:150px; }
+
+/* 征集调查 */
+.collect ul li span { float: none;margin-left:5px; }
+.collect ul li a.publish { float:right;color:#0a64d2; }
+
+/* 网上意见征集 */
+.question { padding:40px 59px 230px 59px;width:805px; }
+.question h1 { font-size:2em;color:#015aaa;text-align: center;margin-bottom:50px;text-decoration: underline;font-weight:500; }
+.question li { margin-bottom:35px; }
+.question dt,.question dd { border:solid 1px #c3d9fe;padding:10px 15px; }
+.question dt { font-weight:700; }
+.question dd { border-top:none;padding:15px 15px 10px 15px; }
+.question label { height:1em;line-height:1em;display:inline-block;margin-right:40px;vertical-align: middle; white-space: nowrap;margin-bottom:20px;}
+.question input[type='checkbox'],.question input[type='radio'] { margin-right:10px;vertical-align: middle; text-align: center;text-align-last: center;}
+.question a { display:inline-block;border:solid 1px #c3d9fe;background-color: #ecf3fb;color:#0a66d5;padding:10px 40px;margin-top:10px;margin-right:10px; }
+
+/* 查看结果 */
+.result { margin-top:10px; }
+.result dt,.result dd { border:none;background-color:#f2f2f2 ; }
+.result dt span { color:#000;margin-right:20px; }
+.result dt span b { color:#f41301; }
+.result dd { color:#005cac; }
+.result dd span { margin-right:20px; }

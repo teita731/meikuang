@@ -15,3 +15,21 @@
 .lead .info p { font-size:1.2em; }
 .lead .article_content h2 { font-size:1.5em;margin:50px 0 20px 0; }
 .lead .article_content p { text-indent:2em;line-height:2em; }
+
+/* 联系方式 */
+.contact { padding:59px 49px 234px 49px;width:825px; }
+.contact .article_cont { color:#4b5b7f;font-size:1.6em; }
+.contact .article_cont p { margin-bottom:30px; }
+
+/* 我要留言 */
+.guestbook .tip { text-align: center;font-size:1.2em;margin:40px auto 80px auto; }
+.guestbook form { width:545px;padding:0 175px; }
+.guestbook form p { margin-bottom:35px;font-size:1.2em; }
+.guestbook form span { width:145px;display: inline-block;vertical-align: top;height:1.2em;padding:10px 0;line-height: 1.2em;}
+.guestbook form input,.guestbook form textarea { border:none;background-color: #eaeaea;padding:10px 20px;height:1.2em;width:360px;font-size:1.2em; }
+.guestbook form textarea { height:180px; }
+.guestbook form .verify input { width:100px; }
+.guestbook form .verify img { vertical-align: middle; height:44px;}
+.guestbook form .verify a { font-size:0.9em;color:#cd2d1f;vertical-align: middle;margin-left:5px; }
+.guestbook form input[type='submit'],.guestbook form input[type='button'] { display:inline-block;width:100px;color:#fff;background-color: #005bac;margin-right:35px;box-sizing: content-box;-moz-box-sizing: content-box;/* Firefox */-webkit-box-sizing: content-box;/* Safari */ }
+.guestbook h1 { color:#0767ce;text-align: center;font-weight:500; }
