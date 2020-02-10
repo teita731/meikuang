@@ -178,13 +178,22 @@ footer .fr img { max-width:25vw;max-height:5rem;margin-bottom:1rem; }
 .morelist .interactlist li:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
 
 /* 我要留言 */
-.guestbook .tip { margin:1.5remn 0;color:#82868f; }
-.guestbook form p { margin-bottom:1rem;}
-.guestbook form span { width:6rem;display: inline-block;vertical-align: top;height:1.2em;padding:10px 0;line-height: 1.2em;}
-.guestbook form input,.guestbook form textarea { height:1rem;border:none;background-color: #fff;border:solid 1px #dcdcdc;padding:0.5rem;width:60vw;;font-size:1.2em;border-radius: 5px; }
+.guestbook .tip { margin:1.5rem 0;color:#82868f; }
+.guestbook form p { margin-bottom:1rem;display:flex;display: -webkit-flex;justify-content: space-between;}
+.guestbook form span { flex:0 0 6rem;vertical-align: top;height:1.2em;padding:10px 0;line-height: 1.2em;}
+.guestbook form input,.guestbook form textarea { height:1rem;border:none;background-color: #fff;border:solid 1px #dcdcdc;padding:0.5rem;flex:0 0 55vw;border-radius: 5px;box-sizing: content-box;}
 .guestbook form textarea { height:5rem; }
-.guestbook form .verify input { width:100px; }
-.guestbook form .verify img { vertical-align: middle; height:44px;}
+.guestbook form .verify input { flex:0 0 10vw;overflow: hidden; }
+.guestbook form .verify img { flex:0 0 10vw;vertical-align: middle; height:2rem;}
 .guestbook form .verify a { font-size:0.9em;color:#cd2d1f;vertical-align: middle;margin-left:5px; }
-.guestbook form input[type='submit'],.guestbook form input[type='button'] { display:inline-block;width:100px;color:#fff;background-color: #005bac;margin-right:35px;box-sizing: content-box;-moz-box-sizing: content-box;/* Firefox */-webkit-box-sizing: content-box;/* Safari */ }
-.guestbook h1 { color:#0767ce;text-align: center;font-weight:500; }
+.guestbook form div { display:flex;display: -webkit-flex;justify-content: center; }
+.guestbook form input[type='submit'],.guestbook form input[type='button'] { flex:0 0 15vw;color:#fff;background-color: #0a64d2;margin:1rem 5vw;box-sizing: content-box;-moz-box-sizing: content-box;/* Firefox */-webkit-box-sizing: content-box;/* Safari */ }
+
+/* 正文 */
+.article { background-color: #f2f2f2;padding-bottom:5rem; }
+.article .tag-content { background-color: #fff;margin:0 4vw;padding: 1rem 1.5vw; }
+.article h1 { font-size:1.2em;font-weight:500;color:#000;margin-bottom:1rem; }
+.article .info { display:block;color:#b8b8b8;padding-bottom:1rem;border-bottom:solid 1px #bfbfbf; }
+.article .info span { margin-right:4vw;display:inline-block; }
+.article .article_content { padding:1rem 0 5rem 0; }
+.article .article_content p { text-indent:2em;line-height:2em; }
